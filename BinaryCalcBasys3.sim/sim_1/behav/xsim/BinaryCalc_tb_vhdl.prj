@@ -1,0 +1,7 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../BinaryCalcBasys3.srcs/sources_1/new/BinaryCalc.vhd" \
+"../../../../BinaryCalcBasys3.srcs/sim_1/new/binaryCalc_tb.vhd" \
+
+# Do not sort compile order
+nosort
